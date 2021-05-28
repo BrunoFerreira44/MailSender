@@ -1,22 +1,22 @@
 # MailSender
 
-Emissor simples de mensagens via E-Mail
+   Emissor simples de mensagens via E-Mail
 
 # Tecnologias
 
-• JavaScript
+   • JavaScript
 
-• NodeJS com utilização da biblioteca Nodemailer
+   • NodeJS com utilização da biblioteca Nodemailer
 
 ## Configurações
 
 ```
 #Clone do projeto
-git clone https://github.com/BrunoFerreira44/MailSender.git
-cd MailSender/
+   git clone https://github.com/BrunoFerreira44/MailSender.git
+   cd MailSender/
 
 #Alteração das configurações pessoais
-No diretório "src/config/", será necessário ajustar as seguintes configs de acordo com cada usuário:
+   No diretório "src/config/", será necessário ajustar as seguintes configs no arquivo "smtp.js:
 
    • user = Usuário de E-Mail que o MailSender irá se conectar para disparar as mensagens
    • pass = Senha da conta do usuário
@@ -33,12 +33,12 @@ No diretório "src/config/", será necessário ajustar as seguintes configs de a
    }
 
 #Execução do projeto
-yarn start
+   yarn start
 ```
 
 ## Premissas
 
-A configuração de "Acesso de Apps menos seguros" da conta de Gmail do usuário
+   A configuração de "Acesso de Apps menos seguros" da conta de Gmail do usuário
 emissor deverá estar ATIVADA. Para isso, entre no link:
 https://myaccount.google.com/u/1/lesssecureapps e ative a opção. É importante
 garantir que a configuração esta sendo feita para a conta que será usada como
@@ -48,6 +48,6 @@ execuções, esta opção seja desativada novamente por questão de segurança.
 
 ## Autor
 
-Bruno Ferreira
+   Bruno Ferreira
 
-LinkedIn: https://www.linkedin.com/in/brunoferreira3003/
+   LinkedIn: https://www.linkedin.com/in/brunoferreira3003/
