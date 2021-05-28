@@ -1,0 +1,15 @@
+{
+   "name": "MailSender",
+   "version": "1.0.0",
+   "description": "Emissor simples de mensagens via E-Mail",
+   "main": "index.js",
+   "repository": "https://github.com/BrunoFerreira44/MailSender.git",
+   "author": "Bruno Ferreira <brunoferreira1999@live.com>",
+   "license": "MIT",
+   "dependencies": {
+      "nodemailer": "^6.6.1"
+   },
+   "scripts": {
+      "start": "node src"
+   }
+}
