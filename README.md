@@ -1,8 +1,12 @@
 # MailSender
 
+   [![NPM](https://img.shields.io/npm/l/react)](https://github.com/BrunoFerreira44/MailSender/main/LICENSE)
+
+## Sobre o projeto
+
    Emissor simples de mensagens via E-Mail
 
-# Tecnologias
+## Tecnologias
 
    • JavaScript
 
