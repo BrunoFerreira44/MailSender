@@ -18,7 +18,7 @@ Emissor simples de mensagens via E-Mail
 #Clone e instalação do projeto
    git clone https://github.com/BrunoFerreira44/MailSender.git
    cd MailSender/
-   yarn start
+   yarn
 
 #Alteração das configurações pessoais
    No diretório "src/config/", será necessário ajustar as seguintes configs no arquivo "smtp.js:
