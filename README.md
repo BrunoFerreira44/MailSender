@@ -1,23 +1,24 @@
 # MailSender
 
-   [![NPM](https://img.shields.io/npm/l/react)](https://github.com/BrunoFerreira44/MailSender/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/BrunoFerreira44/MailSender/main/LICENSE)
 
 ## Sobre o projeto
 
-   Emissor simples de mensagens via E-Mail
+Emissor simples de mensagens via E-Mail
 
 ## Tecnologias
 
-   • JavaScript
+• JavaScript
 
-   • NodeJS com utilização da biblioteca Nodemailer
+• NodeJS com utilização da biblioteca Nodemailer
 
 ## Configurações
 
 ```
-#Clone do projeto
+#Clone e instalação do projeto
    git clone https://github.com/BrunoFerreira44/MailSender.git
    cd MailSender/
+   yarn start
 
 #Alteração das configurações pessoais
    No diretório "src/config/", será necessário ajustar as seguintes configs no arquivo "smtp.js:
@@ -42,7 +43,7 @@
 
 ## Premissas
 
-   A configuração de "Acesso de Apps menos seguros" da conta de Gmail do usuário
+A configuração de "Acesso de Apps menos seguros" da conta de Gmail do usuário
 emissor deverá estar ATIVADA. Para isso, entre no link:
 https://myaccount.google.com/u/1/lesssecureapps e ative a opção. É importante
 garantir que a configuração esta sendo feita para a conta que será usada como
@@ -52,6 +53,6 @@ execuções, esta opção seja desativada novamente por questão de segurança.
 
 ## Autor
 
-   Bruno Ferreira
+Bruno Ferreira
 
-   LinkedIn: https://www.linkedin.com/in/brunoferreira3003/
+LinkedIn: https://www.linkedin.com/in/brunoferreira3003/
