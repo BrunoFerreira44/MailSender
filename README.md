@@ -1,18 +1,18 @@
-# MailSender
+<h1 align="center">MailSender</h1>
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/BrunoFerreira44/MailSender/main/LICENSE)
 
-## Sobre o projeto
+## 🛠 Sobre o projeto
 
 Emissor simples de mensagens via E-Mail
 
-## Tecnologias
+## 🚀 Tecnologias
 
 • JavaScript
 
 • NodeJS com utilização da biblioteca Nodemailer
 
-## Configurações
+## ⚙ Configurações
 
 ```
 #Clone e instalação do projeto
@@ -41,7 +41,7 @@ Emissor simples de mensagens via E-Mail
    yarn start
 ```
 
-## Premissas
+## ⚖ Premissas
 
 A configuração de "Acesso de Apps menos seguros" da conta de Gmail do usuário
 emissor deverá estar ATIVADA. Para isso, entre no link:
@@ -51,7 +51,7 @@ emissora dos E-Mails. Isto é necessário para que o Gmail aceite a conexão
 externa do código e não barre o acesso. É também muito aconselhável que, após as
 execuções, esta opção seja desativada novamente por questão de segurança.
 
-## Autor
+## 🙇‍ Autor
 
 Bruno Ferreira
 
